@@ -1,0 +1,6 @@
+framework module Pods_YouTubeFake {
+  umbrella header "Pods-YouTubeFake-umbrella.h"
+
+  export *
+  module * { export * }
+}
