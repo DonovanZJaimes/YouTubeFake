@@ -10,6 +10,7 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet var tableView: UITableView!
+    
     lazy var controller = HomeController(delegate: self)
     private var objectList: [[Any]] = []
     private var sectionTitleList: [String] = []

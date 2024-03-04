@@ -10,7 +10,7 @@ protocol HomeControllerDelegate: AnyObject {
     func homeController (list: [[Any]], sectionTitleList: [String])
 }
 
-@MainActor class HomeController {
+class HomeController {
     var provider: HomeProviderProtocol
     weak var delegate: HomeControllerDelegate?
     private var objectList: [[Any]] = []
@@ -26,7 +26,7 @@ protocol HomeControllerDelegate: AnyObject {
         #endif
         
     }
-    
+    @MainActor
     func getHomeObjects() async{
         objectList.removeAll()
         sectionTitleList.removeAll()
