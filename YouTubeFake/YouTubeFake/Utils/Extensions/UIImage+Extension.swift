@@ -17,7 +17,7 @@ extension UIImage {
     @nonobjc class var dotsImage: UIImage {
         return (UIImage(named: "dots")?.withRenderingMode(.alwaysTemplate))!
     }
-    /*
+    
     @nonobjc class var magnifyingIcon: UIImage {
         return (UIImage(systemName: "magnifyingglass")?.withRenderingMode(.alwaysTemplate))!
     }
@@ -26,6 +26,10 @@ extension UIImage {
         return (UIImage(named: "cast")?.withRenderingMode(.alwaysTemplate))!
     }
     
+    @nonobjc class var magnifyingImage: UIImage {
+        return (UIImage(named: "magnifying")?.withRenderingMode(.alwaysTemplate))!
+    }
+    /*
     @nonobjc class var chevronBackwardIcon: UIImage {
         return (UIImage(systemName: "chevron.backward")?.withRenderingMode(.alwaysTemplate))!
     }
@@ -46,9 +50,7 @@ extension UIImage {
         return (UIImage(systemName: "person.circle.fill"))!
     }
     
-    @nonobjc class var magnifyingImage: UIImage {
-        return (UIImage(named: "magnifying")?.withRenderingMode(.alwaysTemplate))!
-    }
+    
     
     @nonobjc class var pause: UIImage {
         return (UIImage(systemName: "pause"))!
@@ -64,5 +66,5 @@ extension UIImage {
         }
         return image
     }
-     */
+    */
 }

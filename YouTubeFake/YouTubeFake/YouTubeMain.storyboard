@@ -17,25 +17,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wW4-JT-w9i">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="148" width="393" height="670"/>
                                 <connections>
                                     <segue destination="7aC-vV-p3y" kind="embed" id="tmf-cz-Hru"/>
                                 </connections>
                             </containerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xgi-tn-G2a" customClass="TabsView" customModule="YouTubeFake" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="103" width="393" height="45"/>
+                                <color key="backgroundColor" name="backgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="VGv-kK-C94"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" name="backgroundColor"/>
                         <constraints>
                             <constraint firstItem="wW4-JT-w9i" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="1Yd-e9-0UY"/>
+                            <constraint firstItem="wW4-JT-w9i" firstAttribute="top" secondItem="xgi-tn-G2a" secondAttribute="bottom" id="KTp-c8-Gle"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="wW4-JT-w9i" secondAttribute="bottom" id="MeG-bS-Mw0"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="xgi-tn-G2a" secondAttribute="trailing" id="OUj-0d-EZF"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="wW4-JT-w9i" secondAttribute="trailing" id="REm-mW-OqL"/>
-                            <constraint firstItem="wW4-JT-w9i" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="aCT-Xl-K6F"/>
+                            <constraint firstItem="xgi-tn-G2a" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="fRt-7i-8gz"/>
+                            <constraint firstItem="xgi-tn-G2a" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ftD-OO-EnD"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="egE-1u-Hhi"/>
+                    <connections>
+                        <outlet property="tabsView" destination="xgi-tn-G2a" id="21A-bn-iq1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48" y="-2"/>
+            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
         </scene>
         <!--Root Page View Controller-->
         <scene sceneID="a6y-Lc-c0k">
@@ -43,7 +57,25 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="7aC-vV-p3y" customClass="RootPageViewController" customModule="YouTubeFake" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iuO-m3-tZT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="866" y="-2"/>
+            <point key="canvasLocation" x="1791.6030534351144" y="-2.4647887323943665"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LiC-k1-1Hw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XPT-9I-QWF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Qf-Wg-fAc">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="sXi-uQ-OEj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HQI-LA-fFg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
         </scene>
     </scenes>
     <resources>
