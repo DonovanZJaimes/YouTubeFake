@@ -6,11 +6,11 @@
 //
 
 import Foundation
-protocol HomeControllerDelegate: AnyObject {
+protocol HomeControllerDelegate: AnyObject, BaseViewProtocol {
     func homeController (list: [[Any]], sectionTitleList: [String])
 }
 
-class HomeController {
+@MainActor class HomeController {
     var provider: HomeProviderProtocol
     weak var delegate: HomeControllerDelegate?
     private var objectList: [[Any]] = []
@@ -26,21 +26,20 @@ class HomeController {
         #endif
         
     }
-    @MainActor
-    func getHomeObjects() async{
+    
+    func getHomeObjects() async {
         objectList.removeAll()
         sectionTitleList.removeAll()
+        delegate?.loadingView(.show)
         async let channel = try await provider.getChannel(channelId: Constants.channelId).items
         async let playlist = try await provider.getPlaylists(channelId: Constants.channelId).items
         async let videos = try await provider.getVideos(searchString: "", channelId: Constants.channelId).items
-    /*func getHomeObjects () async {
-        objectList.removeAll()
-        async let channel = try await provider.getChanel(chaneelId: Constants.channelId).items
-        async let playlist = try await provider.getPlaylists(chaneelId: Constants.channelId).items
-        async let videos = try await provider.getVideos(searchString: "", chaneelId: Constants.channelId).items
-        */
+    
         
         do {
+            defer {
+                delegate?.loadingView(.hide)
+            }
             let (responseChannel, responsePlaylist, responseVideos) = await (try channel, try playlist, try videos)
             //Index 0
             objectList.append(responseChannel)
@@ -59,8 +58,12 @@ class HomeController {
             
             delegate?.homeController(list: objectList, sectionTitleList: sectionTitleList)
             
-        } catch {
-            print(error)
+        } catch  {
+            delegate?.showError(error.localizedDescription, callback: {
+                Task{[weak self] in
+                    await self?.getHomeObjects()
+                }
+            })
         }
     }
     
@@ -69,7 +72,11 @@ class HomeController {
             let playlistItems = try await provider.getPlaylistItems(playlistId: playlist)
             return playlistItems
         } catch {
-            print("error:", error)
+            delegate?.showError(error.localizedDescription, callback: {
+                Task{[weak self] in
+                    await self?.getHomeObjects()
+                }
+            })
             return nil
         }
     }

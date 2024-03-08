@@ -7,25 +7,33 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
+enum LoadingViewState{
+    case show
+    case hide
+}
 
+protocol BaseViewProtocol{
+    func loadingView(_ state : LoadingViewState)
+    func showError(_ error : String, callback : (()->Void)?)
+}
+
+class BaseViewController: UIViewController {
+    var loadingIndicator = UIActivityIndicatorView(style: .large)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
     }
     
-
     func configNavigationBar(){
-        let stackOptions  = UIStackView()
+        let stackOptions = UIStackView()
         stackOptions.axis = .horizontal
         stackOptions.distribution = .fillEqually
-        stackOptions.spacing = 0
+        stackOptions.spacing = 0.0
         stackOptions.translatesAutoresizingMaskIntoConstraints = false
         
-        let dots = buildButtons(selector: #selector(dotsButtonPressed), image: .dotsImage, inset: 33)
-        let magnify = buildButtons(selector: #selector(magnifyButtonPressed), image: .magnifyingImage, inset: 33)
         let share = buildButtons(selector: #selector(shareButtonPressed), image: .castImage, inset: 30)
+        let magnify = buildButtons(selector: #selector(magnifyButtonPressed), image: .magnifyingImage, inset: 33)
+        let dots = buildButtons(selector: #selector(dotsButtonPressed), image: .dotsImage, inset: 33)
         
         stackOptions.addArrangedSubview(share)
         stackOptions.addArrangedSubview(magnify)
@@ -35,9 +43,8 @@ class BaseViewController: UIViewController {
         let customItemView = UIBarButtonItem(customView: stackOptions)
         customItemView.tintColor = .clear
         navigationItem.rightBarButtonItem = customItemView
-        
     }
-    
+
     private func buildButtons(selector : Selector, image : UIImage, inset : CGFloat) -> UIButton{
         let button = UIButton(type: .custom)
         button.addTarget(self, action: selector, for: .touchUpInside)
@@ -60,3 +67,46 @@ class BaseViewController: UIViewController {
         print("dotsButtonPressed")
     }
 }
+
+extension BaseViewController{
+    func showError(_ error : String, callback : (()->Void)?){
+        let alert = UIAlertController(title: "Error", message: error, preferredStyle: .alert)
+        
+        if let callback = callback{
+            alert.addAction(UIAlertAction(title: "Retry", style: .default, handler: { action in
+                if action.style == .default{
+                    callback()
+                    print("retry button pressed")
+                }
+            }))
+        }
+        alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: { action in
+            if action.style == .cancel{
+                print("ok button pressed")
+            }
+        }))
+        
+        present(alert, animated: true)
+    }
+    
+    func loadingView(_ state : LoadingViewState){
+        switch state {
+        case .show:
+            showLoading()
+        case .hide:
+            hideLoading()
+        }
+    }
+    
+    private func showLoading(){
+        view.addSubview(loadingIndicator)
+        loadingIndicator.center = view.center
+        loadingIndicator.startAnimating()
+    }
+    
+    private func hideLoading(){
+        loadingIndicator.stopAnimating()
+        loadingIndicator.removeFromSuperview()
+    }
+}
+

@@ -7,5 +7,7 @@ target 'YouTubeFake' do
 
   # Pods for YouTubeFake
   pod 'Kingfisher'
+  pod 'FloatingPanel'
+  pod "youtube-ios-player-helper"
 
 end

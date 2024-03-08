@@ -30,6 +30,17 @@
 		5D9C4A072B966C1900E3C6B0 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C4A062B966C1900E3C6B0 /* TabsView.swift */; };
 		5D9C4A0B2B966E5A00E3C6B0 /* OptionCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C4A092B966E5A00E3C6B0 /* OptionCellCollectionViewCell.swift */; };
 		5D9C4A0C2B966E5A00E3C6B0 /* OptionCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C4A0A2B966E5A00E3C6B0 /* OptionCellCollectionViewCell.xib */; };
+		5D9C4A102B97ABDE00E3C6B0 /* PlayVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C4A0E2B97ABDE00E3C6B0 /* PlayVideoViewController.swift */; };
+		5D9C4A112B97ABDE00E3C6B0 /* PlayVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C4A0F2B97ABDE00E3C6B0 /* PlayVideoViewController.xib */; };
+		5D9C4A172B97C50500E3C6B0 /* PlayVideoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C4A162B97C50500E3C6B0 /* PlayVideoProvider.swift */; };
+		5D9C4A192B97C51E00E3C6B0 /* PlayVideoProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C4A182B97C51E00E3C6B0 /* PlayVideoProviderMock.swift */; };
+		5D9C4A1B2B97C53C00E3C6B0 /* PlayVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C4A1A2B97C53C00E3C6B0 /* PlayVideoController.swift */; };
+		5D9C4A1F2B97CCE700E3C6B0 /* VideoFullTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C4A1D2B97CCE700E3C6B0 /* VideoFullTableViewCell.swift */; };
+		5D9C4A202B97CCE700E3C6B0 /* VideoFullTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C4A1E2B97CCE700E3C6B0 /* VideoFullTableViewCell.xib */; };
+		5D9C4A232B97CD0400E3C6B0 /* VideoHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C4A212B97CD0400E3C6B0 /* VideoHeaderTableViewCell.swift */; };
+		5D9C4A242B97CD0400E3C6B0 /* VideoHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9C4A222B97CD0400E3C6B0 /* VideoHeaderTableViewCell.xib */; };
+		5D9C4A272B97D51D00E3C6B0 /* ButtonsIconList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C4A262B97D51D00E3C6B0 /* ButtonsIconList.swift */; };
+		5D9C4A292B98FBFF00E3C6B0 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C4A282B98FBFF00E3C6B0 /* UILabel+Extension.swift */; };
 		5DAD63EB2B852E6100C18A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD63EA2B852E6100C18A96 /* AppDelegate.swift */; };
 		5DAD63ED2B852E6100C18A96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD63EC2B852E6100C18A96 /* SceneDelegate.swift */; };
 		5DAD63F42B852E6300C18A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAD63F32B852E6300C18A96 /* Assets.xcassets */; };
@@ -100,6 +111,17 @@
 		5D9C4A062B966C1900E3C6B0 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		5D9C4A092B966E5A00E3C6B0 /* OptionCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		5D9C4A0A2B966E5A00E3C6B0 /* OptionCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		5D9C4A0E2B97ABDE00E3C6B0 /* PlayVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoViewController.swift; sourceTree = "<group>"; };
+		5D9C4A0F2B97ABDE00E3C6B0 /* PlayVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayVideoViewController.xib; sourceTree = "<group>"; };
+		5D9C4A162B97C50500E3C6B0 /* PlayVideoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoProvider.swift; sourceTree = "<group>"; };
+		5D9C4A182B97C51E00E3C6B0 /* PlayVideoProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoProviderMock.swift; sourceTree = "<group>"; };
+		5D9C4A1A2B97C53C00E3C6B0 /* PlayVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoController.swift; sourceTree = "<group>"; };
+		5D9C4A1D2B97CCE700E3C6B0 /* VideoFullTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFullTableViewCell.swift; sourceTree = "<group>"; };
+		5D9C4A1E2B97CCE700E3C6B0 /* VideoFullTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoFullTableViewCell.xib; sourceTree = "<group>"; };
+		5D9C4A212B97CD0400E3C6B0 /* VideoHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		5D9C4A222B97CD0400E3C6B0 /* VideoHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		5D9C4A262B97D51D00E3C6B0 /* ButtonsIconList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsIconList.swift; sourceTree = "<group>"; };
+		5D9C4A282B98FBFF00E3C6B0 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		5DAD63E72B852E6100C18A96 /* YouTubeFake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeFake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAD63EA2B852E6100C18A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DAD63EC2B852E6100C18A96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -192,6 +214,7 @@
 				5D9C49FD2B9652F900E3C6B0 /* UITableView+Extension.swift */,
 				5D9C49FF2B96556B00E3C6B0 /* UIColor+Extension.swift */,
 				5D9C4A012B96572C00E3C6B0 /* UIImage+Extension.swift */,
+				5D9C4A282B98FBFF00E3C6B0 /* UILabel+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -239,6 +262,71 @@
 			path = CustomCell;
 			sourceTree = "<group>";
 		};
+		5D9C4A0D2B97ABBA00E3C6B0 /* PlayVideo */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C4A152B97B5F000E3C6B0 /* Controller */,
+				5D9C4A142B97B5E700E3C6B0 /* View */,
+				5D9C4A122B97B5D300E3C6B0 /* Model */,
+			);
+			path = PlayVideo;
+			sourceTree = "<group>";
+		};
+		5D9C4A122B97B5D300E3C6B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C4A132B97B5DB00E3C6B0 /* Provider */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D9C4A132B97B5DB00E3C6B0 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C4A162B97C50500E3C6B0 /* PlayVideoProvider.swift */,
+				5D9C4A182B97C51E00E3C6B0 /* PlayVideoProviderMock.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		5D9C4A142B97B5E700E3C6B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C4A252B97D4F200E3C6B0 /* CustomViews */,
+				5D9C4A1C2B97CCAF00E3C6B0 /* CustomCells */,
+				5D9C4A0F2B97ABDE00E3C6B0 /* PlayVideoViewController.xib */,
+				5D9C4A0E2B97ABDE00E3C6B0 /* PlayVideoViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D9C4A152B97B5F000E3C6B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C4A1A2B97C53C00E3C6B0 /* PlayVideoController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5D9C4A1C2B97CCAF00E3C6B0 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C4A1D2B97CCE700E3C6B0 /* VideoFullTableViewCell.swift */,
+				5D9C4A1E2B97CCE700E3C6B0 /* VideoFullTableViewCell.xib */,
+				5D9C4A212B97CD0400E3C6B0 /* VideoHeaderTableViewCell.swift */,
+				5D9C4A222B97CD0400E3C6B0 /* VideoHeaderTableViewCell.xib */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		5D9C4A252B97D4F200E3C6B0 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				5D9C4A262B97D51D00E3C6B0 /* ButtonsIconList.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		5DAD63DE2B852E6100C18A96 = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +355,7 @@
 				5DAD641E2B85578F00C18A96 /* Playlist */,
 				5DAD641D2B85577F00C18A96 /* Videos */,
 				5DAD641C2B85577700C18A96 /* Home */,
+				5D9C4A0D2B97ABBA00E3C6B0 /* PlayVideo */,
 				5DAD64132B8552E100C18A96 /* Main */,
 				5DAD63FE2B853C9E00C18A96 /* Model */,
 				5DAD63EA2B852E6100C18A96 /* AppDelegate.swift */,
@@ -539,6 +628,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D9C4A202B97CCE700E3C6B0 /* VideoFullTableViewCell.xib in Resources */,
 				5DAD642B2B85581C00C18A96 /* PlaylistViewController.xib in Resources */,
 				5D8475092B87D2C700F15F46 /* VideoTableViewCell.xib in Resources */,
 				5DAD645F2B86B5FC00C18A96 /* SearchVideos.json in Resources */,
@@ -551,8 +641,10 @@
 				5D8474FC2B87C75200F15F46 /* VideoOnlyOne.json in Resources */,
 				5DAD63F42B852E6300C18A96 /* Assets.xcassets in Resources */,
 				5DAD64272B85580100C18A96 /* VideosViewController.xib in Resources */,
+				5D9C4A112B97ABDE00E3C6B0 /* PlayVideoViewController.xib in Resources */,
 				5D8475142B8D475000F15F46 /* BottomSheetViewController.xib in Resources */,
 				5D8475052B87D29900F15F46 /* ChannelTableViewCell.xib in Resources */,
+				5D9C4A242B97CD0400E3C6B0 /* VideoHeaderTableViewCell.xib in Resources */,
 				5DAD64192B85540D00C18A96 /* YouTubeMain.storyboard in Resources */,
 				5DAD645B2B86B5AE00C18A96 /* Playlist.json in Resources */,
 				5DAD64232B8557EB00C18A96 /* HomeViewController.xib in Resources */,
@@ -620,6 +712,7 @@
 				5DAD64072B8548EA00C18A96 /* SnipetItems.swift in Sources */,
 				5D9C49FA2B928F2600E3C6B0 /* VideosController.swift in Sources */,
 				5DAD640E2B8550D000C18A96 /* SnipetItem.swift in Sources */,
+				5D9C4A192B97C51E00E3C6B0 /* PlayVideoProviderMock.swift in Sources */,
 				5DAD64032B85455900C18A96 /* PageInfoPlaylist.swift in Sources */,
 				5DAD64542B86B42400C18A96 /* HomeProviderMock.swift in Sources */,
 				5D9C4A072B966C1900E3C6B0 /* TabsView.swift in Sources */,
@@ -627,9 +720,14 @@
 				5DAD64222B8557EB00C18A96 /* HomeViewController.swift in Sources */,
 				5D9C49F32B8FEB5800E3C6B0 /* UIView+Extension.swift in Sources */,
 				5D8475132B8D475000F15F46 /* BottomSheetViewController.swift in Sources */,
+				5D9C4A1B2B97C53C00E3C6B0 /* PlayVideoController.swift in Sources */,
+				5D9C4A172B97C50500E3C6B0 /* PlayVideoProvider.swift in Sources */,
+				5D9C4A272B97D51D00E3C6B0 /* ButtonsIconList.swift in Sources */,
 				5DAD643E2B86844300C18A96 /* NetworkError.swift in Sources */,
+				5D9C4A292B98FBFF00E3C6B0 /* UILabel+Extension.swift in Sources */,
 				5D9C4A002B96556B00E3C6B0 /* UIColor+Extension.swift in Sources */,
 				5D8475002B87CE5600F15F46 /* MockManagerSingleton.swift in Sources */,
+				5D9C4A102B97ABDE00E3C6B0 /* PlayVideoViewController.swift in Sources */,
 				5DAD64122B8551F600C18A96 /* StatisticsItem.swift in Sources */,
 				5DAD64492B869C1E00C18A96 /* ChannelModel.swift in Sources */,
 				5DAD642A2B85581C00C18A96 /* PlaylistViewController.swift in Sources */,
@@ -638,6 +736,7 @@
 				5DAD643C2B86841D00C18A96 /* RequestModel.swift in Sources */,
 				5DAD640A2B854BF500C18A96 /* VideoModel.swift in Sources */,
 				5D9C49FE2B9652F900E3C6B0 /* UITableView+Extension.swift in Sources */,
+				5D9C4A232B97CD0400E3C6B0 /* VideoHeaderTableViewCell.swift in Sources */,
 				5DAD64052B8545DF00C18A96 /* ItemsPlaylist.swift in Sources */,
 				5DAD64332B85587900C18A96 /* AboutViewController.swift in Sources */,
 				5DAD64102B8551C600C18A96 /* ContentDetailsItem.swift in Sources */,
@@ -654,6 +753,7 @@
 				5DAD644B2B869C6200C18A96 /* ItemsChannel.swift in Sources */,
 				5D9C49F72B928F0400E3C6B0 /* VideosProvider.swift in Sources */,
 				5DAD63EB2B852E6100C18A96 /* AppDelegate.swift in Sources */,
+				5D9C4A1F2B97CCE700E3C6B0 /* VideoFullTableViewCell.swift in Sources */,
 				5D9C49FC2B92934D00E3C6B0 /* VideosProviderMock.swift in Sources */,
 				5DAD64152B85535B00C18A96 /* RootPageViewController.swift in Sources */,
 				5DAD63ED2B852E6100C18A96 /* SceneDelegate.swift in Sources */,
@@ -800,8 +900,8 @@
 				INFOPLIST_FILE = YouTubeFake/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -827,8 +927,8 @@
 				INFOPLIST_FILE = YouTubeFake/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
