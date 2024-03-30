@@ -30,12 +30,16 @@ extension UIImage {
         return (UIImage(named: "magnifying")?.withRenderingMode(.alwaysTemplate))!
     }
     
-    @nonobjc class var videoPlaceholder: UIImage {
+    /*@nonobjc class var videoPlaceholder: UIImage {
         guard let image = UIImage(named: "maxresdefault") else{
             fatalError("You should add the videoPlaceholder to the assets")
         }
         return image
+    }*/
+    @nonobjc class var videoPlaceholder: UIImage {
+        return (UIImage(systemName: "photo.on.rectangle.fill"))!
     }
+    
     @nonobjc class var personCircleFill: UIImage {
         return (UIImage(systemName: "person.circle.fill"))!
     }

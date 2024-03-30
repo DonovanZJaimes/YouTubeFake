@@ -9,10 +9,11 @@ import UIKit
 
 class VideoFullTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var videoImage: UIImageView!
+    
     @IBOutlet weak var videoTitle: UILabel!
     @IBOutlet weak var statistics: UILabel!
-        
+    @IBOutlet weak var videoImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

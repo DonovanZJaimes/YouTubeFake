@@ -121,7 +121,7 @@ protocol PlayVideoViewProtocol : AnyObject, BaseViewProtocol{
     }
     
     func getChannelAndRelatedVideos(_ videoId : String, _ channelId : String) async{
-        /*async let relatedVideos = try await provider.getRelatedVideos(videoId)
+        async let relatedVideos = try await provider.getRelatedVideos(videoId)
         async let channel = try await provider.getChannel(channelId).items
         
         do{
@@ -133,12 +133,12 @@ protocol PlayVideoViewProtocol : AnyObject, BaseViewProtocol{
         }catch{
             delegate?.showError(error.localizedDescription, callback: nil)
         }
-         */
          
+         /*
         do {
             let model = try await provider.getRelatedVideos(videoId)
-            //let filterRelatedVideos = model.items.filter({$0.snippet != nil})
-            //relatedVideoList.append(filterRelatedVideos)
+            let filterRelatedVideos = model.items.filter({$0.snippet != nil})
+            relatedVideoList.append(filterRelatedVideos)
         }catch {
             delegate?.showError(error.localizedDescription, callback: nil)
         }
@@ -150,7 +150,7 @@ protocol PlayVideoViewProtocol : AnyObject, BaseViewProtocol{
             delegate?.showError(error.localizedDescription, callback: nil)
         }
           
-        
+        */
     }
     
   
