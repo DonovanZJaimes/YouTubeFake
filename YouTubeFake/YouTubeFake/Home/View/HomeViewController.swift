@@ -25,8 +25,17 @@ class HomeViewController: BaseViewController {
         
         Task {
             await controller.getHomeObjects()
+            configAboutController()
+            
         }
     }
+    func configAboutController() {
+        let model = objectList[0]
+        guard let channel = model as? [ItemsChannel] else { return }
+        let info = channel[0].snippet.description
+        NotificationCenter.default.post(name: .aboutInfo, object: info)
+    }
+    
     func configTableView() {
         //Cells
         let nibChanel = UINib(nibName: "\(ChannelTableViewCell.self)", bundle: nil)
@@ -243,8 +252,11 @@ extension HomeViewController: FloatingPanelControllerDelegate {
 }
 
 extension NSNotification.Name{
+    //to PlayVideo
     static let viewPosition = Notification.Name("viewPosition")
     static let expand = Notification.Name("expand")
+    //to AboutController
+    static let aboutInfo = Notification.Name("aboutInfo")
 }
 
 class MyFloatingPanelLayout: FloatingPanelLayout {
@@ -256,4 +268,6 @@ class MyFloatingPanelLayout: FloatingPanelLayout {
         .tip: FloatingPanelLayoutAnchor(absoluteInset: 60.0, edge: .bottom, referenceGuide: .safeArea),
     ]
 }
+
+
 

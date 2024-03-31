@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutViewController" customModule="YouTubeFake" customModuleProvider="target">
             <connections>
+                <outlet property="infoTextView" destination="Kh7-OZ-ETv" id="gmY-6K-Hay"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,27 +20,27 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytG-Z6-0sr">
-                    <rect key="frame" x="50" y="109" width="68" height="15"/>
-                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                    <rect key="frame" x="20" y="79" width="73" height="15"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                     <color key="textColor" name="whiteColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Kh7-OZ-ETv">
-                    <rect key="frame" x="45" y="124" width="298" height="684"/>
+                    <rect key="frame" x="15" y="94" width="358" height="714"/>
                     <color key="backgroundColor" name="backgroundColor"/>
                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                     <color key="textColor" name="grayColor"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" name="backgroundColor"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Kh7-OZ-ETv" secondAttribute="trailing" constant="50" id="K1B-Nd-npl"/>
-                <constraint firstItem="ytG-Z6-0sr" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="Mjq-by-tyD"/>
-                <constraint firstItem="Kh7-OZ-ETv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="45" id="O31-ec-t4W"/>
-                <constraint firstItem="ytG-Z6-0sr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="wbU-79-xm7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Kh7-OZ-ETv" secondAttribute="trailing" constant="20" id="K1B-Nd-npl"/>
+                <constraint firstItem="ytG-Z6-0sr" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="Mjq-by-tyD"/>
+                <constraint firstItem="Kh7-OZ-ETv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="O31-ec-t4W"/>
+                <constraint firstItem="ytG-Z6-0sr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="wbU-79-xm7"/>
                 <constraint firstItem="Kh7-OZ-ETv" firstAttribute="top" secondItem="ytG-Z6-0sr" secondAttribute="bottom" id="zL7-Rh-8nt"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Kh7-OZ-ETv" secondAttribute="bottom" constant="10" id="zQ8-Mb-A3Z"/>
             </constraints>

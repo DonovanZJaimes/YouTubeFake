@@ -17,5 +17,14 @@ class AboutController {
         self.delegate = delegate
     }
     
+    func configController() {
+        NotificationCenter.default.addObserver(self, selector: #selector(getInfo(notification:)), name: .aboutInfo, object: nil)
+    }
+    
+    @objc func getInfo(notification: Notification) {
+        guard let value = notification.object as? String else {return}
+        delegate?.getInfo(value)
+    }
+    
     
 }
