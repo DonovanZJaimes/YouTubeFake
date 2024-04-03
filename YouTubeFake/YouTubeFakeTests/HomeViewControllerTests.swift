@@ -6,30 +6,124 @@
 //
 
 import XCTest
+@testable import YouTubeFake
 
 final class HomeViewControllerTests: XCTestCase {
+    var sut: HomeViewController!
+    var provider : HomeProviderProtocol!
+    var waiting : TimeInterval = 1
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+
+    @MainActor override func setUpWithError() throws {
+        PresentMockManger.shared.vc = nil
+        provider = HomeProviderMock()
+        sut = HomeViewController()
+        //sut.controller = HomeController(delegate: sut, provider: provider)
+        sut.loadViewIfNeeded()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        sut = nil
+        provider = nil
+        PresentMockManger.shared.vc = nil
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func test_HeaderInfoTableView_ShouldContain_ChannelInfo() throws {
+        let tableView = try XCTUnwrap(sut.tableView, "you should create this IBOutlet")
+        
+        let expLadingData = expectation(description: "loading")
+        DispatchQueue.main.asyncAfter(deadline: .now()+waiting) {
+            expLadingData.fulfill()
         }
+        waitForExpectations(timeout: 1.1)
+        
+        guard let header = tableView.cellForRow(at: IndexPath(item: 0, section: 0)) as? ChannelTableViewCell else{
+            XCTFail("The first position should be the ChannelTableViewCell")
+            return
+        }
+        XCTAssertNotNil(header.channelTitle.text)
+        XCTAssertNotNil(header.channelInfoLabel.text)
+        XCTAssertNotNil(header.subscribeLabel.text)
     }
 
+    func test_VideoSection_ValidateItsContent() throws{
+        let tableView = try XCTUnwrap(sut.tableView, "you should create this IBOutlet")
+        
+        let expLadingData = expectation(description: "loading")
+        DispatchQueue.main.asyncAfter(deadline: .now()+1) {
+            expLadingData.fulfill()
+        }
+        waitForExpectations(timeout: 1.1)
+        
+        guard let videoCell = tableView.cellForRow(at: IndexPath(item: 0, section: 1)) as? VideoTableViewCell else{
+            XCTFail("The first position should be the VideoTableViewCell")
+            return
+        }
+        
+        let videoName = try XCTUnwrap(videoCell.videoName, "you should create this IBOutlet")
+        
+        XCTAssertNotNil(videoName.text)
+        XCTAssertNotNil(videoCell.videoImage)
+        XCTAssertNotNil(videoCell.channelName.text)
+        XCTAssertNotNil(videoCell.viewsCountLabel.text)
+    }
+    
+    func testVideoSection_ValidateIfThreeDotsButton_HasAction() throws{
+        let tableView = try XCTUnwrap(sut.tableView, "you should create this IBOutlet")
+        
+        let expLadingData = expectation(description: "loading")
+        DispatchQueue.main.asyncAfter(deadline: .now()+waiting) {
+            expLadingData.fulfill()
+        }
+        waitForExpectations(timeout: 1.1)
+        
+        guard let videoCell = tableView.cellForRow(at: IndexPath(item: 0, section: 1)) as? VideoTableViewCell else{
+            XCTFail("The first position should be the VideoTableViewCell")
+            return
+        }
+        
+        let dotsButton = try XCTUnwrap(videoCell.dotsButton)
+        let dotsActions = try XCTUnwrap(dotsButton.actions(forTarget: videoCell, forControlEvent: .touchUpInside))
+        XCTAssertEqual(dotsActions.count , 1)
+        
+        
+        
+    }
+    
+    
+    func testVideoSection_OpenBottomSheet() throws{
+        //Arrange
+        let tableView = try XCTUnwrap(sut.tableView, "you should create this IBOutlet")
+                
+        let expLadingData = expectation(description: "loading")
+                
+        DispatchQueue.main.asyncAfter(deadline: .now()+waiting) {
+            expLadingData.fulfill()
+        }
+        waitForExpectations(timeout: 1.0)
+                
+        guard let videoCell = tableView.cellForRow(at: IndexPath(item: 0, section: 1)) as? VideoTableViewCell else{
+            XCTFail("The first position should be the VideoCell")
+            return
+        }
+        let dotsButton = try XCTUnwrap(videoCell.dotsButton)
+        dotsButton.sendActions(for: .touchUpInside)
+        
+        //Assert
+        XCTAssertTrue(PresentMockManger.shared.vc.isKind(of: BottomSheetViewController.self))
+    }
+
+}
+
+fileprivate class PresentMockManger{
+    static var shared = PresentMockManger()
+    init(){}
+    var vc : UIViewController!
+}
+
+extension HomeViewController{
+    override open func present(_ viewControllerToPresent: UIViewController, animated flag: Bool, completion: (() -> Void)? = nil) {
+        super.present(viewControllerToPresent, animated: flag, completion: completion)
+        PresentMockManger.shared.vc = viewControllerToPresent
+    }
 }

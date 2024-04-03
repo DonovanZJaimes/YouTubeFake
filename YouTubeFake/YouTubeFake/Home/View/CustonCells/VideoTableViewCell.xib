@@ -86,6 +86,7 @@
             <color key="backgroundColor" name="backgroundColor"/>
             <connections>
                 <outlet property="channelName" destination="QzC-L1-sau" id="zTI-FH-NNn"/>
+                <outlet property="dotsButton" destination="S00-z6-kNF" id="1ah-oJ-bmI"/>
                 <outlet property="dotsImage" destination="86v-xe-EUU" id="i9a-dD-VXH"/>
                 <outlet property="videoImage" destination="h1F-VG-PLY" id="aWH-Dd-GLL"/>
                 <outlet property="videoName" destination="eAi-qk-mOy" id="OQ2-Jb-zsK"/>

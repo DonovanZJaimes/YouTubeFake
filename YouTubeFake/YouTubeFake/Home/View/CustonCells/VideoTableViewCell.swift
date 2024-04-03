@@ -10,6 +10,7 @@ import Kingfisher
 
 class VideoTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var dotsButton: UIButton!
     @IBOutlet weak var dotsImage: UIImageView!
     @IBOutlet weak var viewsCountLabel: UILabel!
     @IBOutlet weak var channelName: UILabel!
