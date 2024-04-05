@@ -8,5 +8,5 @@
 import Foundation
 class MockManagerSingleton {
     static var shared = MockManagerSingleton()
-    var runAppWithMock: Bool = false
+    var runAppWithMock: Bool = true
 }

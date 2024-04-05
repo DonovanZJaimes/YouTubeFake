@@ -1,317 +1,266 @@
 {
-    "kind": "youtube#playlistItemListResponse",
-    "etag": "MhcPmE0lZTs8_J4lPwqzyfEmnJI",
-    "nextPageToken": "EAAaBlBUOkNBWQ",
-    "items": [
-        {
-            "kind": "youtube#playlistItem",
-            "etag": "8g4ZEQiy4J7ePrE0ZrBWaacb1SM",
-            "id": "UExUX09PYktaM0NwdUVvbUhDYzZ2LTQ5dTNERkNkQ3lMSC41Mzk2QTAxMTkzNDk4MDhF",
-            "snippet": {
-                "publishedAt": "2022-03-11T02:03:54Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "1- Curso de Swift iOS 15 desde CERO - Xcode 13 - 2022",
-                "description": "CLONANDO YOUTUBE *Curso de Swift* iOS 15 desde CERO Español 2022. Inroducción y Demo.\nEste es el primer video de una serie completa donde te explico paso a paso como crear una elegante App *YouTube* utilizando Swift UIKit, este curso está dirigido a cualquier persona, tenga o no un buen nivel desarrollando aplicaciones iOS. \n\nEn esta serie de videos te enseño cómo *crear app en swift desde cero*. Para su creación debes tener Xcode 13 instalado, ya que estaremos utilizando varios features de iOS15. Este CURSO DE SWIFT  está dirigido tanto a personas que ya tienen experiencia, como a principiantes en swift que a penas comienzan su carrera. Espero te sirva de mucho, házmelo saber en los comentarios.\n\nSi estás buscando un curso paso a paso de cómo crear una aplicación iOS con swift, este es curso definitivo que te enseñará a crear una aplicación de calidad y bajo estándares muy altos de calidad de código. \n\nPlaylist del Curso Completo:\nhttps://bit.ly/3IxWs2g\n\nRepositorio Github:\nhttps://bit.ly/3vpd6gy\n\nSUSCRIBETE AL CANAL\nhttps://bit.ly/3n6ttur\n\n-- Timestamps --\n00:00 Introducción\n00:21 Contenido de toda la aplicación\n03:04 Demo Clone YouTube\n07:23 Resumen\n\nTwitter: \nhttps://twitter.com/VictorRoldanDev\n\nCorreo de contacto:\nvictorroldan.dev@gmail.com\n\n#iOSDevelopment #CursoSwiftGratis #CloneYouTubeSwift #iOSProgramming #Swift #VictorRoldanDev #Xcode #AprenderSwift, #DesarrolladoriOS",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/v1mWkw7Lito/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/v1mWkw7Lito/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/v1mWkw7Lito/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/v1mWkw7Lito/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/v1mWkw7Lito/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
-                    }
-                },
-                "channelTitle": "Victor Roldan Dev",
-                "playlistId": "PLT_OObKZ3CpuEomHCc6v-49u3DFCdCyLH",
-                "position": 0,
-                "resourceId": {
-                    "kind": "youtube#video",
-                    "videoId": "v1mWkw7Lito"
-                },
-                "videoOwnerChannelTitle": "Victor Roldan Dev",
-                "videoOwnerChannelId": "UC_I_lCplbwIf60iUgsTE79g"
+   "kind":"youtube#playlistItemListResponse",
+   "etag":"aWKcKhPuR-jv72ChTT6lCywKSMc",
+   "nextPageToken":"EAAajgFQVDpDQVVpRURFeVJVWkNNMEl4UXpVM1JFVTBSVEVvQVVpVm9PUFF2T09FQTFBQldrVWlRMmxLVVZSR2FFVldWamxzVm1zNVMxWklaek5UVkd4RVZGVTVTV0pzVWtabGJsWTBVa2hrZG1OVVFrUmhia1l3UldkM1NUTTRhWEJ5ZDFsUmFVeHFVSFpCVFNJ",
+   "items":[
+      {
+         "kind":"youtube#playlistItem",
+         "etag":"4g1f8xO_ZiYMxiRah2vSeXBlhCo",
+         "id":"UExYRFVfZVZPSlR4N0k5Q01PSG5URXp1eER3b3EwQ2pxdC41NkI0NEY2RDEwNTU3Q0M2",
+         "snippet":{
+            "publishedAt":"2024-02-14T21:53:09Z",
+            "channelId":"UCQsVmhSa4X-G3lHlUtejzLA",
+            "title":"Figma tutorial: Intro to Dev Mode",
+            "description":"Figma is free to use. Sign up here: https://bit.ly/3msp0OV\n\nDev Mode in Figma design gives developers everything they need to navigate design files and transform designs into code. With Dev Mode, designers and developers stay on the same page, making sure important details aren’t lost in the handoff process. \n\nCheck out our Guide to Dev Mode: https://bit.ly/3Nch6bA\n\nMark a section as ready for development: https://bit.ly/44FQaIz\n\nLearn more by using the Dev Mode playground file: https://bit.ly/46u4IwD\n\nDive deeper into Dev Mode in our Help Center: https://bit.ly/46j1Q5m\n\nAnd learn all about Figma for VS Code: https://bit.ly/3PlwHIs\n\nDev Mode is in beta and free for all users through 2023. \n2024 pricing and packaging information can be found here: https://bit.ly/3ecEsNH\n\nChapters:\n00:00 - Intro\n00:31 - How to switch to Dev Mode\n00:44 - Status tags\n00:54 - Inspect panel\n01:07 - Diffing\n01:47 - Component playground\n01:55 - Box model and code snippets\n02:17 - Dev resources\n02:48 - Figma for VS Code\n03:47 - Share Dev Mode links\n04:09 - Wrap up\n\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nFigma forum: https://forum.figma.com/\n\n____________________________________________________\n\n#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems #Config2023 #DevMode #Developer #Designer",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/__ABPkb0aF8/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/__ABPkb0aF8/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/__ABPkb0aF8/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               },
+               "standard":{
+                  "url":"https://i.ytimg.com/vi/__ABPkb0aF8/sddefault.jpg",
+                  "width":640,
+                  "height":480
+               },
+               "maxres":{
+                  "url":"https://i.ytimg.com/vi/__ABPkb0aF8/maxresdefault.jpg",
+                  "width":1280,
+                  "height":720
+               }
             },
-            "contentDetails": {
-                "videoId": "v1mWkw7Lito",
-                "videoPublishedAt": "2022-03-05T05:00:19Z"
-            }
-        },
-        {
-            "kind": "youtube#playlistItem",
-            "etag": "FFvUStsOp7unMHP3GrXhGuz7ZYQ",
-            "id": "UExUX09PYktaM0NwdUVvbUhDYzZ2LTQ5dTNERkNkQ3lMSC45NzUwQkI1M0UxNThBMkU0",
-            "snippet": {
-                "publishedAt": "2022-03-11T02:04:36Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "2- Creación Proyecto Xcode 13 y Repositorio Github - *Curso Swift* iOS 15 Español 2022",
-                "description": "CLONANDO YOUTUBE - *Curso iOS Swift UIKit* Español 2022.\nEn esta segunda parte te explico como funciona Git + creación del repositorio y Proyecto en Xcode, también se agregan los custom colors y Assets para el AppIcon y Launch Screen. \nTodos los Assets a utilizar se encuentran al final de esta descripción. \n\nEn esta serie de videos te enseño cómo *crear app en swift desde cero*. Para su creación debes tener Xcode 13 instalado, ya que estaremos utilizando varios features de iOS15. Este CURSO DE SWIFT  está dirigido tanto a personas que ya tienen experiencia, como a principiantes en swift que a penas comienzan su carrera. Espero te sirva de mucho, házmelo saber en los comentarios.\n\nPlaylist del Curso Completo:\nhttps://bit.ly/3IxWs2g\n\nComo comenzar con Xcode:\nhttps://www.youtube.com/watch?v=3V7mHbcxIp0\n\nRepositorio Github\nhttps://bit.ly/3vpd6gy\n\nSUSCRIBETE AL CANAL\nhttps://bit.ly/3n6ttur\n\n-- Timestamps --\n00:00 Introducción.\n01:22 Que es Git y como funciona.\n03:42 Creación repositorio Github\n08:51 Creación del Proyecto Xcode\n10:08 Agregar Assets al proyecto Xcode\n11:21 Agregar AppIcon\n12:54 Agregando el LauchScreen\n14:55 Diseño en Sketch de la aplicación\n15:58 Agregar custom colors a los assets en Xcode\n\nColores a utilizar: \nbackgroundColor\ndark: 212121\nany: FFFFFF\n\ngrayColor\ndark: ABABAB\nany: 555555\n\nwhiteColor\ndark: FFFFFF\nany: 202020\n\nTwitter: \nhttps://twitter.com/VictorRoldanDev\n\nDescarga Assets, AppIcon:\nhttps://bit.ly/3t3AEVy\n\nDescarga GitFork:\nhttps://git-fork.com/\n\nDescarga Xcode:\nhttps://apps.apple.com/co/app/xcode/id497799835?l=en&mt=12\n\nDescarga Sketch:\nhttps://www.sketch.com/downloads/mac/\n\nDescarga Diseño Aplicación:\nhttps://github.com/victorroldan-dev/YouTubeClone/tree/main/YouTubeClone/Design\n\nDescargar e Instalar Git:\nhttp://git-scm.com/download/mac\n\n#iOSDevelopment #SwiftAndGit #CursoSwiftGratis #CloneYouTubeSwift #iOSProgramming #Swift #VictorRoldanDev",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/jGxdknovBv8/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/jGxdknovBv8/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/jGxdknovBv8/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/jGxdknovBv8/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/jGxdknovBv8/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
-                    }
-                },
-                "channelTitle": "Victor Roldan Dev",
-                "playlistId": "PLT_OObKZ3CpuEomHCc6v-49u3DFCdCyLH",
-                "position": 1,
-                "resourceId": {
-                    "kind": "youtube#video",
-                    "videoId": "jGxdknovBv8"
-                },
-                "videoOwnerChannelTitle": "Victor Roldan Dev",
-                "videoOwnerChannelId": "UC_I_lCplbwIf60iUgsTE79g"
+            "channelTitle":"Figma",
+            "playlistId":"PLXDU_eVOJTx7I9CMOHnTEzuxDwoq0Cjqt",
+            "position":0,
+            "resourceId":{
+               "kind":"youtube#video",
+               "videoId":"__ABPkb0aF8"
             },
-            "contentDetails": {
-                "videoId": "jGxdknovBv8",
-                "videoPublishedAt": "2022-03-05T05:01:32Z"
-            }
-        },
-        {
-            "kind": "youtube#playlistItem",
-            "etag": "UkE-pdB0WD6Bn-4C2Di7AW7qykI",
-            "id": "UExUX09PYktaM0NwdUVvbUhDYzZ2LTQ5dTNERkNkQ3lMSC5EQUE1NTFDRjcwMDg0NEMz",
-            "snippet": {
-                "publishedAt": "2022-03-11T02:03:54Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "3- Qué es un API, YouTube API V3, POSTMAN *Curso Swift* iOS 15 Español 2022",
-                "description": "CLONANDO YOUTUBE - *Curso Swift UIKit iOS 15* Español 2022.\nEn este video te explico qué es un API, como consumir los servicios de YouTube API V3, y también generamos el Api-Key en google cloud platform para el posterior uso en la aplicación. Adicionalmente estaremos dando un repaso por POSTMAN y cómo utilizar postman. APIs\n\nEn esta serie de videos te enseño cómo *crear app en swift desde cero*. Para su creación debes tener Xcode 13 instalado, ya que estaremos utilizando varios features de iOS15. Este CURSO DE SWIFT  está dirigido tanto a personas que ya tienen experiencia, como a principiantes en swift que a penas comienzan su carrera. Espero te sirva de mucho, házmelo saber en los comentarios.\n\nPlaylist del Curso Completo:\nhttps://bit.ly/3IxWs2g\n\nRepositorio Github:\nhttps://bit.ly/3vpd6gy\n\nSUSCRIBETE AL CANAL\nhttps://bit.ly/3n6ttur\n\n-- Timestamps --\n00:00 Introducción\n01:08 Que es un API, Api-Key y AccessToken\n04:31 Que es JSON y para que se usa\n05:29 Documentación YouTube API V3\n06:54 Como probar el API en la misma documentación\n09:09 Introducción a Postman\n13:51 Crear y Configurar Proyecto en Google Cloud Platform\n15:20 Creación del Api-Key\n15:40 Primer request en Postman\n\nDocumentación YouTube API V3:\nhttps://developers.google.com/youtube/v3/docs\n\nGoogle Developer Console Generar Api-Key:\nhttps://console.developers.google.com/\n\nDescargar Postman\nhttps://www.postman.com/downloads/\n\nDescargar Collection Postman\nhttps://github.com/victorroldan-dev/YouTubeClone/tree/main/YouTubeClone/GeneralAssets\n\nTwitter: \nhttps://twitter.com/VictorRoldanDev\n\n#iOSDevelopment #CursoSwiftGratis #YouTubeApiV3 #CloneYouTubeSwift #iOSProgramming #Swift #VictorRoldanDev",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/QS40bTp53R0/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/QS40bTp53R0/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/QS40bTp53R0/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/QS40bTp53R0/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/QS40bTp53R0/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
-                    }
-                },
-                "channelTitle": "Victor Roldan Dev",
-                "playlistId": "PLT_OObKZ3CpuEomHCc6v-49u3DFCdCyLH",
-                "position": 2,
-                "resourceId": {
-                    "kind": "youtube#video",
-                    "videoId": "QS40bTp53R0"
-                },
-                "videoOwnerChannelTitle": "Victor Roldan Dev",
-                "videoOwnerChannelId": "UC_I_lCplbwIf60iUgsTE79g"
+            "videoOwnerChannelTitle":"Figma",
+            "videoOwnerChannelId":"UCQsVmhSa4X-G3lHlUtejzLA"
+         },
+         "contentDetails":{
+            "videoId":"__ABPkb0aF8",
+            "videoPublishedAt":"2023-06-21T16:32:24Z"
+         }
+      },
+      {
+         "kind":"youtube#playlistItem",
+         "etag":"FKqEn9pSBPS5jZyCf8HTnLYDAmQ",
+         "id":"UExYRFVfZVZPSlR4N0k5Q01PSG5URXp1eER3b3EwQ2pxdC41MjE1MkI0OTQ2QzJGNzNG",
+         "snippet":{
+            "publishedAt":"2024-02-14T21:53:09Z",
+            "channelId":"UCQsVmhSa4X-G3lHlUtejzLA",
+            "title":"Office hours: Intro to Dev Mode",
+            "description":"Figma is free to use. Sign up here: https://bit.ly/3msp0OV\n\nIn this livestream, Jake, Lauren, and Emil dive into Dev Mode, the newest space in Figma built for developers.\n\nCheck out dev mode here: https://www.figma.com/dev-mode/ and jump into our playground file on the Community: https://www.figma.com/community/file/1234941143610339388\n\n0:00 Intro to Dev Mode\n3:20 Editor view demo\n14:03 Dev mode demo\n31:45 Q&A\n53:55 Closing\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nFigma forum: https://forum.figma.com/\n\n____________________________________________________\n\n\n#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems #Config2023",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/ocQK8kfsabQ/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/ocQK8kfsabQ/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/ocQK8kfsabQ/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               },
+               "standard":{
+                  "url":"https://i.ytimg.com/vi/ocQK8kfsabQ/sddefault.jpg",
+                  "width":640,
+                  "height":480
+               },
+               "maxres":{
+                  "url":"https://i.ytimg.com/vi/ocQK8kfsabQ/maxresdefault.jpg",
+                  "width":1280,
+                  "height":720
+               }
             },
-            "contentDetails": {
-                "videoId": "QS40bTp53R0",
-                "videoPublishedAt": "2022-03-06T05:00:13Z"
-            }
-        },
-        {
-            "kind": "youtube#playlistItem",
-            "etag": "JdR7vjCuO-pvKmQUipH8fm1Jmp4",
-            "id": "UExUX09PYktaM0NwdUVvbUhDYzZ2LTQ5dTNERkNkQ3lMSC41QTY1Q0UxMTVCODczNThE",
-            "snippet": {
-                "publishedAt": "2022-03-11T02:03:54Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "4- Patrón de Arquitectura MVP - Curso Swift Español 2022",
-                "description": "CLONANDO YOUTUBE - *Curso Swift* UIKit iOS 15 Español 2022.\nEn esta parte te voy a mostrar el Patrón de Arquitectura MVP. En caso que ya tengas conocimiento de cómo funciona, te puedes saltar este video ya que es solo teórico. Vamos a abordar el tema sobre model view presenter en swift.\n\nEn esta serie de videos te enseño cómo *crear app en swift desde cero*. Para su creación debes tener Xcode 13 instalado, ya que estaremos utilizando varios features de iOS15. Este CURSO DE SWIFT  está dirigido tanto a personas que ya tienen experiencia, como a principiantes en swift que a penas comienzan su carrera. Espero te sirva de mucho, házmelo saber en los comentarios.\n\n\nPlaylist del Curso Completo:\nhttps://bit.ly/3IxWs2g\n\nSUSCRIBETE AL CANAL\nhttps://bit.ly/3n6ttur\n\nPatrón Delegations:\nhttps://www.youtube.com/watch?v=v7NEplM3ZrY\n\n-- Timestamps --\n00:00 Introducción.\n01:09 Explicación del Patrón de Arquitectura MVP\n\nTwitter: \nhttps://twitter.com/VictorRoldanDev\n\n#iOSDevelopment #CursoSwiftGratis #CloneYouTubeSwift #iOSProgramming #Swift #VictorRoldanDev",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/3ZXxXtoPmoo/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/3ZXxXtoPmoo/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/3ZXxXtoPmoo/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/3ZXxXtoPmoo/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/3ZXxXtoPmoo/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
-                    }
-                },
-                "channelTitle": "Victor Roldan Dev",
-                "playlistId": "PLT_OObKZ3CpuEomHCc6v-49u3DFCdCyLH",
-                "position": 3,
-                "resourceId": {
-                    "kind": "youtube#video",
-                    "videoId": "3ZXxXtoPmoo"
-                },
-                "videoOwnerChannelTitle": "Victor Roldan Dev",
-                "videoOwnerChannelId": "UC_I_lCplbwIf60iUgsTE79g"
+            "channelTitle":"Figma",
+            "playlistId":"PLXDU_eVOJTx7I9CMOHnTEzuxDwoq0Cjqt",
+            "position":1,
+            "resourceId":{
+               "kind":"youtube#video",
+               "videoId":"ocQK8kfsabQ"
             },
-            "contentDetails": {
-                "videoId": "3ZXxXtoPmoo",
-                "videoPublishedAt": "2022-03-07T05:00:00Z"
-            }
-        },
-        {
-            "kind": "youtube#playlistItem",
-            "etag": "KZPsPpe8O5dCtierqYGmaTxLLmA",
-            "id": "UExUX09PYktaM0NwdUVvbUhDYzZ2LTQ5dTNERkNkQ3lMSC4yMUQyQTQzMjRDNzMyQTMy",
-            "snippet": {
-                "publishedAt": "2022-03-11T02:03:54Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "5- Crear Model en Swift Paso a Paso - Curso Swift Español 2022",
-                "description": "CLONANDO YOUTUBE - *Curso de Swift* iOS 15 desde CERO Español 2022.\nEn esta parte vamos a abordar en detalle, como Crear Model  en Swift desde cero, para ello vamos a revisar el response del Endpoint utilizando Postman. Vamos a estar repasando el porqué utilizar Decodable. \n\nEn esta serie de videos te enseño cómo crear una app en swift desde cero. Para su creación debes tener Xcode 13 instalado, ya que estaremos utilizando varios features de iOS15. Este curso de swift  está dirigido tanto a personas que ya tienen experiencia, como a principiantes en swift que a penas comienzan su carrera. Espero te sirva de mucho, házmelo saber en los comentarios.\n\nPlaylist del Curso Completo:\nhttps://bit.ly/3IxWs2g\n\nRepositorio Github:\nhttps://bit.ly/3vpd6gy\n\nSUSCRIBETE AL CANAL\nhttps://bit.ly/3n6ttur\n\n-- Timestamps --\n00:00 Introducción\n00:28 Creación del Model PlaylistModel\n\nDescargar Postman\nhttps://www.postman.com/downloads/\n\nDescargar Collection Postman\nhttps://github.com/victorroldan-dev/YouTubeClone/tree/main/YouTubeClone/GeneralAssets\n\nTwitter: \nhttps://twitter.com/VictorRoldanDev\n\n#iOSDevelopment #iOSProgramming #Swift #VictorRoldanDev",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/NrpGrtenhjs/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/NrpGrtenhjs/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/NrpGrtenhjs/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/NrpGrtenhjs/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/NrpGrtenhjs/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
-                    }
-                },
-                "channelTitle": "Victor Roldan Dev",
-                "playlistId": "PLT_OObKZ3CpuEomHCc6v-49u3DFCdCyLH",
-                "position": 4,
-                "resourceId": {
-                    "kind": "youtube#video",
-                    "videoId": "NrpGrtenhjs"
-                },
-                "videoOwnerChannelTitle": "Victor Roldan Dev",
-                "videoOwnerChannelId": "UC_I_lCplbwIf60iUgsTE79g"
+            "videoOwnerChannelTitle":"Figma",
+            "videoOwnerChannelId":"UCQsVmhSa4X-G3lHlUtejzLA"
+         },
+         "contentDetails":{
+            "videoId":"ocQK8kfsabQ",
+            "videoPublishedAt":"2023-07-28T16:00:40Z"
+         }
+      },
+      {
+         "kind":"youtube#playlistItem",
+         "etag":"QDi3hc_HM2LUBfZ-MKFiuEEhGSE",
+         "id":"UExYRFVfZVZPSlR4N0k5Q01PSG5URXp1eER3b3EwQ2pxdC4yODlGNEE0NkRGMEEzMEQy",
+         "snippet":{
+            "publishedAt":"2024-02-14T21:53:09Z",
+            "channelId":"UCQsVmhSa4X-G3lHlUtejzLA",
+            "title":"Designer and developer workflows unlocked using Dev Mode - Jake A, Avantika G, Lauren A, Jenny L",
+            "description":"Speakers:\nJake Albaugh – Developer Advocate, Figma\nAvantika Gomes – Group Product Manager, Figma\nLauren Andres – Designer Advocate, Figma\nJenny Lea – Software Engineer, Figma\n\nJoin us for an in-depth session with practical perspectives on how designers and developers can leverage brand new Figma capabilities to unlock tighter collaboration with one another.\n\nPlease visit https://config.figma.com/video-on-demand/6329936082112 to view ASL version of this Config 2023 session.\n\nFigma is free to use. Sign up here: https://bit.ly/3msp0OV\n\n\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nFigma forum: https://forum.figma.com/\n\n____________________________________________________\n\n\n#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems #Config2023",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/IHP3_S5kI04/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/IHP3_S5kI04/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/IHP3_S5kI04/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               },
+               "standard":{
+                  "url":"https://i.ytimg.com/vi/IHP3_S5kI04/sddefault.jpg",
+                  "width":640,
+                  "height":480
+               },
+               "maxres":{
+                  "url":"https://i.ytimg.com/vi/IHP3_S5kI04/maxresdefault.jpg",
+                  "width":1280,
+                  "height":720
+               }
             },
-            "contentDetails": {
-                "videoId": "NrpGrtenhjs",
-                "videoPublishedAt": "2022-03-08T05:00:06Z"
-            }
-        },
-        {
-            "kind": "youtube#playlistItem",
-            "etag": "YRGxXKHERxExpeeKrME1wx-XvQU",
-            "id": "UExUX09PYktaM0NwdUVvbUhDYzZ2LTQ5dTNERkNkQ3lMSC45RTgxNDRBMzUwRjQ0MDhC",
-            "snippet": {
-                "publishedAt": "2022-03-11T02:03:54Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "6- Usando Quicktype.io para crear Models Swift - Curso Swift Español 2022",
-                "description": "CLONANDO YOUTUBE - *Curso Swift UIKit iOS 15* Español 2022.\nVamos a crear los Model de forma automatizada y mucho mas sencillo utilizando quicktype.io, como convertir un JSON para Crear Models Swift. Qué son los CodingKeys y para qué lo vamos a estar utilizando más adelante. \n\nEn esta serie de videos te enseño cómo crear una app en swift desde cero. Para su creación debes tener Xcode 13 instalado, ya que estaremos utilizando varios features de iOS15. Este curso de swift  está dirigido tanto a personas que ya tienen experiencia, como a principiantes en swift que a penas comienzan su carrera. Espero te sirva de mucho, házmelo saber en los comentarios.\n\nPlaylist del Curso Completo:\nhttps://bit.ly/3IxWs2g\n\nRepositorio Github:\nhttps://bit.ly/3vpd6gy\n\nSUSCRIBETE AL CANAL\nhttps://bit.ly/3n6ttur\n\n-- Timestamps --\n00:00 Introducción\n00:24 Utilizando quicktype para crear models\n\nTwitter: \nhttps://twitter.com/VictorRoldanDev\n\nQuickType:\nhttps://quicktype.io/\n\n#SwiftModel, #Quicktype, #iOSDevelopment #iOSProgramming #Swift #VictorRoldanDev",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/t0jLFIxMR2E/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/t0jLFIxMR2E/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/t0jLFIxMR2E/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/t0jLFIxMR2E/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/t0jLFIxMR2E/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
-                    }
-                },
-                "channelTitle": "Victor Roldan Dev",
-                "playlistId": "PLT_OObKZ3CpuEomHCc6v-49u3DFCdCyLH",
-                "position": 5,
-                "resourceId": {
-                    "kind": "youtube#video",
-                    "videoId": "t0jLFIxMR2E"
-                },
-                "videoOwnerChannelTitle": "Victor Roldan Dev",
-                "videoOwnerChannelId": "UC_I_lCplbwIf60iUgsTE79g"
+            "channelTitle":"Figma",
+            "playlistId":"PLXDU_eVOJTx7I9CMOHnTEzuxDwoq0Cjqt",
+            "position":2,
+            "resourceId":{
+               "kind":"youtube#video",
+               "videoId":"IHP3_S5kI04"
             },
-            "contentDetails": {
-                "videoId": "t0jLFIxMR2E",
-                "videoPublishedAt": "2022-03-08T05:01:50Z"
-            }
-        }
-    ],
-    "pageInfo": {
-        "totalResults": 26,
-        "resultsPerPage": 6
-    }
+            "videoOwnerChannelTitle":"Figma",
+            "videoOwnerChannelId":"UCQsVmhSa4X-G3lHlUtejzLA"
+         },
+         "contentDetails":{
+            "videoId":"IHP3_S5kI04",
+            "videoPublishedAt":"2023-06-24T00:00:15Z"
+         }
+      },
+      {
+         "kind":"youtube#playlistItem",
+         "etag":"ADLtAuu5KLzB6kD19jfE2-f1GYA",
+         "id":"UExYRFVfZVZPSlR4N0k5Q01PSG5URXp1eER3b3EwQ2pxdC4wMTcyMDhGQUE4NTIzM0Y5",
+         "snippet":{
+            "publishedAt":"2024-02-14T21:53:09Z",
+            "channelId":"UCQsVmhSa4X-G3lHlUtejzLA",
+            "title":"Customize your team's workflows with Plugins for Dev Mode - Sawyer Hood (Config 2023)",
+            "description":"Speaker:\nSawyer Hood – Software Engineer, Figma\n\nJoin us for an in-depth session into Plugins for Dev Mode and learn how you can start building tools for your team to speed up designer to developer workflows and more!\n\nPlease visit https://config.figma.com/video-on-demand/6329937769112 to view ASL version of this Config 2023 session.\n\nFigma is free to use. Sign up here: https://bit.ly/3msp0OV\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nFigma forum: https://forum.figma.com/\n\n____________________________________________________\n\n\n#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems #Config2023",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/8gWxD_xly44/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/8gWxD_xly44/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/8gWxD_xly44/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               },
+               "standard":{
+                  "url":"https://i.ytimg.com/vi/8gWxD_xly44/sddefault.jpg",
+                  "width":640,
+                  "height":480
+               },
+               "maxres":{
+                  "url":"https://i.ytimg.com/vi/8gWxD_xly44/maxresdefault.jpg",
+                  "width":1280,
+                  "height":720
+               }
+            },
+            "channelTitle":"Figma",
+            "playlistId":"PLXDU_eVOJTx7I9CMOHnTEzuxDwoq0Cjqt",
+            "position":3,
+            "resourceId":{
+               "kind":"youtube#video",
+               "videoId":"8gWxD_xly44"
+            },
+            "videoOwnerChannelTitle":"Figma",
+            "videoOwnerChannelId":"UCQsVmhSa4X-G3lHlUtejzLA"
+         },
+         "contentDetails":{
+            "videoId":"8gWxD_xly44",
+            "videoPublishedAt":"2023-06-24T00:30:03Z"
+         }
+      },
+      {
+         "kind":"youtube#playlistItem",
+         "etag":"nV0fbPBwl-qHPpbNdd2v4buke2s",
+         "id":"UExYRFVfZVZPSlR4N0k5Q01PSG5URXp1eER3b3EwQ2pxdC4wOTA3OTZBNzVEMTUzOTMy",
+         "snippet":{
+            "publishedAt":"2024-02-14T21:53:09Z",
+            "channelId":"UCQsVmhSa4X-G3lHlUtejzLA",
+            "title":"Office hours: Developer and designer collaboration in Dev Mode",
+            "description":"Figma is free to use. Sign up here: https://bit.ly/3msp0OV\n\nJoin this learning session where we will share tips and address questions around how to onboard your engineers to Dev Mode. We’ll cover how to adjust your workflows to get the most of our new features, setting up your files and design system, and onboarding your developers. \n\nCheck out the slides here: https://www.figma.com/community/file/1283827272482729197/Assets-for-%22Onboarding-to-dev-mode%22-livestream\n\n0:00 Introduction\n2:27 Pillars\n4:06 Roles\n5:24 Collaboration\n9:53 Demo\n30:00 Building systems\n52:58 Collaboration best practices\n55:42 Closing\n\n____________________________________________________\n\nFind us on ⬇️\nTwitter: https://twitter.com/figma\nInstagram: https://www.instagram.com/figma\nLinkedIn: https://www.linkedin.com/company/figma\nFigma forum: https://forum.figma.com/\n\n____________________________________________________\n\n\n#Figma #Config #FigJam #Tutorial #NothingGreatIsMadeAlone #design #tips #DesignSystems #Config2023",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/xC0usQInS8A/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/xC0usQInS8A/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/xC0usQInS8A/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               },
+               "standard":{
+                  "url":"https://i.ytimg.com/vi/xC0usQInS8A/sddefault.jpg",
+                  "width":640,
+                  "height":480
+               },
+               "maxres":{
+                  "url":"https://i.ytimg.com/vi/xC0usQInS8A/maxresdefault.jpg",
+                  "width":1280,
+                  "height":720
+               }
+            },
+            "channelTitle":"Figma",
+            "playlistId":"PLXDU_eVOJTx7I9CMOHnTEzuxDwoq0Cjqt",
+            "position":4,
+            "resourceId":{
+               "kind":"youtube#video",
+               "videoId":"xC0usQInS8A"
+            },
+            "videoOwnerChannelTitle":"Figma",
+            "videoOwnerChannelId":"UCQsVmhSa4X-G3lHlUtejzLA"
+         },
+         "contentDetails":{
+            "videoId":"xC0usQInS8A",
+            "videoPublishedAt":"2023-09-29T15:27:57Z"
+         }
+      }
+   ],
+   "pageInfo":{
+      "totalResults":11,
+      "resultsPerPage":5
+   }
 }

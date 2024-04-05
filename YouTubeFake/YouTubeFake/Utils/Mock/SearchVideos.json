@@ -1,216 +1,182 @@
 {
-    "kind": "youtube#searchListResponse",
-    "etag": "vwf2VO6DGgimgJEWkwbfI4palqI",
-    "nextPageToken": "CAYQAA",
-    "regionCode": "CO",
-    "pageInfo": {
-        "totalResults": 43,
-        "resultsPerPage": 6
-    },
-    "items": [
-        {
-            "kind": "youtube#searchResult",
-            "etag": "TsrmfH84paLy5bIyMihEzKEyH7g",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "Ho1iZWFY258"
+   "kind":"youtube#searchListResponse",
+   "etag":"mguQABdjFBtY3EshrtfgKF0et2s",
+   "nextPageToken":"CAUQAA",
+   "regionCode":"US",
+   "pageInfo":{
+      "totalResults":8477,
+      "resultsPerPage":5
+   },
+   "items":[
+      {
+         "kind":"youtube#searchResult",
+         "etag":"dujMy8tOpiiJWZG2U9_cb3QUgv4",
+         "id":{
+            "kind":"youtube#video",
+            "videoId":"WG0Y_k89HPg"
+         },
+         "snippet":{
+            "publishedAt":"2023-11-13T17:05:49Z",
+            "channelId":"UCQsVmhSa4X-G3lHlUtejzLA",
+            "title":"Clean up your #figma file with advanced prototyping #trailer #shorts #design #prototype",
+            "description":"Check out the full video tutorial here: https://youtu.be/vGIrfVrw_Ss. Find us on ⬇️ X (formerly Twitter): https://twitter.com/figma ...",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/WG0Y_k89HPg/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/WG0Y_k89HPg/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/WG0Y_k89HPg/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               }
             },
-            "snippet": {
-                "publishedAt": "2022-03-27T17:00:05Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "27 - Como Instalar Floating Panel - Curso Swift Español 2022",
-                "description": "En este video vamos a ver cómo instalar Floating Panel que es la librería que estaremos utilizando para mostrar el video.",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/Ho1iZWFY258/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/Ho1iZWFY258/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/Ho1iZWFY258/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Victor Roldan Dev",
-                "liveBroadcastContent": "none",
-                "publishTime": "2022-03-27T17:00:05Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "AQCgr3bZZ_O0VPLAS5e43r3kAUU",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "JIDsIV8fdl0"
+            "channelTitle":"Figma",
+            "liveBroadcastContent":"none",
+            "publishTime":"2023-11-13T17:05:49Z"
+         }
+      },
+      {
+         "kind":"youtube#searchResult",
+         "etag":"ZFVstOzYnzhgT7DtrUJcbyjH60U",
+         "id":{
+            "kind":"youtube#video",
+            "videoId":"oHv6vnFXBeo"
+         },
+         "snippet":{
+            "publishedAt":"2022-08-30T16:30:11Z",
+            "channelId":"UCQsVmhSa4X-G3lHlUtejzLA",
+            "title":"Create an action menu with smart animate in Figma",
+            "description":"Figma is free to use. Sign up here: https://bit.ly/3msp0OV Today we're going to show you how to make an action menu in Figma.",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/oHv6vnFXBeo/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/oHv6vnFXBeo/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/oHv6vnFXBeo/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               }
             },
-            "snippet": {
-                "publishedAt": "2022-03-26T17:00:16Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "26 - Animación del TabBar del PageViewController - Curso Swift Español 2022",
-                "description": "En este video te explico cómo crear la animación del TabBar del PageViewController superior. CLONANDO YOUTUBE - *Curso ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/JIDsIV8fdl0/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/JIDsIV8fdl0/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/JIDsIV8fdl0/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Victor Roldan Dev",
-                "liveBroadcastContent": "none",
-                "publishTime": "2022-03-26T17:00:16Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "fB72y6IVHk8LPg50QSIUA9zxRV4",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "9FQPCC5qc-Q"
+            "channelTitle":"Figma",
+            "liveBroadcastContent":"none",
+            "publishTime":"2022-08-30T16:30:11Z"
+         }
+      },
+      {
+         "kind":"youtube#searchResult",
+         "etag":"9k4EpXZGa2EmExLbPPAHgDx6HSg",
+         "id":{
+            "kind":"youtube#video",
+            "videoId":"EpzyaqDQgFQ"
+         },
+         "snippet":{
+            "publishedAt":"2023-05-23T16:01:44Z",
+            "channelId":"UCQsVmhSa4X-G3lHlUtejzLA",
+            "title":"Let&#39;s make a bouncy accordion in Figma #shorts",
+            "description":"Let's make an accordion in Figma! 1. Start with three elements: a text layer for label, a chevron icon, and a text layer for the ...",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/EpzyaqDQgFQ/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/EpzyaqDQgFQ/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/EpzyaqDQgFQ/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               }
             },
-            "snippet": {
-                "publishedAt": "2022-03-25T17:00:05Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "25 - Cómo crear un CollectionView - Creación de Tabs - Curso Swift Español 2022",
-                "description": "En este video vamos a estar creando el Tab Bar para manipular el PageViewController y de esta forma poder cambiar entre ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/9FQPCC5qc-Q/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/9FQPCC5qc-Q/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/9FQPCC5qc-Q/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Victor Roldan Dev",
-                "liveBroadcastContent": "none",
-                "publishTime": "2022-03-25T17:00:05Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "gQj51fFVe9crwMbwGF6nfcmTUbI",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "uS_RkZUgu_4"
+            "channelTitle":"Figma",
+            "liveBroadcastContent":"none",
+            "publishTime":"2023-05-23T16:01:44Z"
+         }
+      },
+      {
+         "kind":"youtube#searchResult",
+         "etag":"DzBzPYfxOwC81Whucz4g519Pc1I",
+         "id":{
+            "kind":"youtube#video",
+            "videoId":"Cx2dkpBxst8"
+         },
+         "snippet":{
+            "publishedAt":"2019-10-15T16:03:45Z",
+            "channelId":"UCQsVmhSa4X-G3lHlUtejzLA",
+            "title":"What&#39;s Figma?",
+            "description":"Figma is free to use. Sign up here: http://bit.ly/2q7OwRV Figma is where teams design together. Bring ideas to life in a design, ...",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/Cx2dkpBxst8/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/Cx2dkpBxst8/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/Cx2dkpBxst8/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               }
             },
-            "snippet": {
-                "publishedAt": "2022-03-24T17:00:26Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "24 - Cómo crear un Navigation Bar + Animación - Curso Swift Español 2022",
-                "description": "En este video te explico Cómo Crear un NavigationBar y hacer que se muestre u oculte a medida que se hace scroll en el ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/uS_RkZUgu_4/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/uS_RkZUgu_4/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/uS_RkZUgu_4/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Victor Roldan Dev",
-                "liveBroadcastContent": "none",
-                "publishTime": "2022-03-24T17:00:26Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "pUSqH8oW-vIQfG6aQpXogS8iCpc",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "KjPXChebyQs"
+            "channelTitle":"Figma",
+            "liveBroadcastContent":"none",
+            "publishTime":"2019-10-15T16:03:45Z"
+         }
+      },
+      {
+         "kind":"youtube#searchResult",
+         "etag":"BgIglFW8IO9EzLj5TbKABqxl9d0",
+         "id":{
+            "kind":"youtube#video",
+            "videoId":"Wyk5MrA35no"
+         },
+         "snippet":{
+            "publishedAt":"2022-07-26T16:30:08Z",
+            "channelId":"UCQsVmhSa4X-G3lHlUtejzLA",
+            "title":"Search bar prototype in Figma",
+            "description":"Figma is free to use. Sign up here: https://bit.ly/3msp0OV Today we're going to show you how to make an interactive search bar ...",
+            "thumbnails":{
+               "default":{
+                  "url":"https://i.ytimg.com/vi/Wyk5MrA35no/default.jpg",
+                  "width":120,
+                  "height":90
+               },
+               "medium":{
+                  "url":"https://i.ytimg.com/vi/Wyk5MrA35no/mqdefault.jpg",
+                  "width":320,
+                  "height":180
+               },
+               "high":{
+                  "url":"https://i.ytimg.com/vi/Wyk5MrA35no/hqdefault.jpg",
+                  "width":480,
+                  "height":360
+               }
             },
-            "snippet": {
-                "publishedAt": "2022-03-23T17:00:19Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "23 - Challenge Swift - Refactorización - Curso Swift Español 2022",
-                "description": "En este video te propongo hacer las 3 pantallas que faltan de la sección principal del PageController. También estaremos ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/KjPXChebyQs/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/KjPXChebyQs/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/KjPXChebyQs/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Victor Roldan Dev",
-                "liveBroadcastContent": "none",
-                "publishTime": "2022-03-23T17:00:19Z"
-            }
-        },
-        {
-            "kind": "youtube#searchResult",
-            "etag": "8N-rdPGxBG00CZoGvTy-NBwdkVA",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "MBC3utljlhs"
-            },
-            "snippet": {
-                "publishedAt": "2022-03-22T17:00:21Z",
-                "channelId": "UC_I_lCplbwIf60iUgsTE79g",
-                "title": "22- Creación de TableView de Videos - Curso Swift Español 2022",
-                "description": "En este video vamos a crear el listado de videos en el segundo page del PageViewController. CLONANDO YOUTUBE - *Curso ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/MBC3utljlhs/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/MBC3utljlhs/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/MBC3utljlhs/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Victor Roldan Dev",
-                "liveBroadcastContent": "none",
-                "publishTime": "2022-03-22T17:00:21Z"
-            }
-        }
-    ]
+            "channelTitle":"Figma",
+            "liveBroadcastContent":"none",
+            "publishTime":"2022-07-26T16:30:08Z"
+         }
+      }
+   ]
 }
