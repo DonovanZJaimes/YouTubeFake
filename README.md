@@ -3,15 +3,15 @@
 YouTubeFake es una aplicación diseñada para replicar una parte de la funcionalidad de YouTube, centrándose en la sección de un canal específico.
 
 ## Screenshots
-<img width="319" alt="Captura de pantalla 2024-04-05 a la(s) 14 21 46" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/c10a7438-1d52-4b77-85c7-de108a57cf2f">
-<img width="319" alt="Captura de pantalla 2024-04-05 a la(s) 14 24 28" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/8502568b-4c61-4384-8330-c8708d413b28">
-<img width="319" alt="Captura de pantalla 2024-04-05 a la(s) 14 25 19" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/07987711-7b7c-43f5-b3ee-c28a455008e3">
-<img width="319" alt="Captura de pantalla 2024-04-05 a la(s) 14 25 55" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/16076099-6935-4766-964f-c004550ccc56">
-<img width="319" alt="Captura de pantalla 2024-04-05 a la(s) 14 26 43" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/1fe72a96-7442-44c9-a167-df3d58ffab0a">
-<img width="319" alt="Captura de pantalla 2024-04-05 a la(s) 14 27 15" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/31f31061-c7fa-4e9b-bf67-9028017b0c2f">
-<img width="319" alt="Captura de pantalla 2024-04-05 a la(s) 14 28 25" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/7b884646-d597-438d-bc71-7491aaf6fbb1">
-<img width="319" alt="Captura de pantalla 2024-04-05 a la(s) 14 29 07" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/7d8fdd91-2e4c-4424-a63b-3b811437296a">
-<img width="319" alt="Captura de pantalla 2024-04-05 a la(s) 14 30 12" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/497f2a42-8866-4994-9999-bb67066de17c">
+<img width="220" alt="Captura de pantalla 2024-04-05 a la(s) 14 21 46 2" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/abf77131-ef49-4596-a07e-77dc1c26eef9">
+<img width="220" alt="Captura de pantalla 2024-04-05 a la(s) 14 24 28 2" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/a0c2d959-44de-4c32-a4ac-a894af697920">
+<img width="220" alt="Captura de pantalla 2024-04-05 a la(s) 14 25 19 2" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/6433807e-b086-4f81-95b8-2adb96b6db00">
+<img width="220" alt="Captura de pantalla 2024-04-05 a la(s) 14 25 55 2" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/a1ed6122-4384-4000-9885-84d259b42f7b">
+<img width="220" alt="Captura de pantalla 2024-04-05 a la(s) 14 26 43 2" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/ce056de4-5229-4e23-98a0-654982bed4de">
+<img width="220" alt="Captura de pantalla 2024-04-05 a la(s) 14 27 15 2" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/ebea420f-f1f5-4c4f-98e0-c22698fa73fd">
+<img width="220" alt="Captura de pantalla 2024-04-05 a la(s) 14 28 25 2" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/939a188c-4a2c-44fa-afda-4421ae25ac05">
+<img width="220" alt="Captura de pantalla 2024-04-05 a la(s) 14 29 07 2" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/bb13f6d0-f70f-411c-9a8e-65800ca05f10">
+<img width="220" alt="Captura de pantalla 2024-04-05 a la(s) 14 30 12 2" src="https://github.com/DonovanZJaimes/YouTubeFake/assets/133284152/579fb2d8-7f8c-4b29-bf05-22696d74cba3">
 
 ## Demo
 | Demo 1 | Demo 2 |
